@@ -270,6 +270,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://country-app-react-redux-bootstrap.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
@@ -277,6 +278,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://github.com/Shamim-Al-Mamun/Country-App-React-Redux"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github text-dark"></i> Source Code
                     </a>
@@ -292,6 +294,7 @@ function Portfolio() {
                         href="https://escape-plan-styled.netlify.app/"
                         className="stretched-link text-dark text-decoration-none cardTitle"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Escape Plan
                       </a>
@@ -302,6 +305,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://escape-plan-styled.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
@@ -309,6 +313,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://github.com/Shamim-Al-Mamun/Escape-Plan-React-Styled-Components"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github text-dark"></i> Source Code
                     </a>
@@ -328,6 +333,7 @@ function Portfolio() {
                         <a
                           href="https://photo-gallery-reactjs-firebase.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Photo Gallery
@@ -339,6 +345,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://photo-gallery-reactjs-firebase.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -346,6 +353,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Photo-Gallery-React-Firebase"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -365,6 +373,7 @@ function Portfolio() {
                       <a
                         href="https://resume-maker-react.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                         className="stretched-link text-dark text-decoration-none cardTitle"
                       >
                         Resume Maker
@@ -376,6 +385,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://resume-maker-react.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
@@ -383,6 +393,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://github.com/Shamim-Al-Mamun/ResumeMaker-React"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github text-dark"></i> Source Code
                     </a>
@@ -402,6 +413,7 @@ function Portfolio() {
                         <a
                           href="https://react-fire-auth.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Authentication
@@ -413,6 +425,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://react-fire-auth.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -420,6 +433,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/React-Firebase-Auth"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -435,6 +449,7 @@ function Portfolio() {
                       <a
                         href="https://react-redux-thunk-async-api.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                         className="stretched-link text-dark text-decoration-none cardTitle"
                       >
                         E-shop
@@ -446,6 +461,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://react-redux-thunk-async-api.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Live Demo
                     </a>
@@ -453,6 +469,7 @@ function Portfolio() {
                       className="text-decoration-none"
                       href="https://github.com/Shamim-Al-Mamun/React-Redux-Thunk-Async-API"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github text-dark"></i> Source Code
                     </a>
@@ -473,6 +490,7 @@ function Portfolio() {
                           href="https://res-todo-app-react.netlify.app/"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           Todo List
                         </a>
@@ -483,6 +501,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://res-todo-app-react.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -490,6 +509,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Todo-App-React"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -506,6 +526,7 @@ function Portfolio() {
                         <a
                           href="https://birthday-reminds.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Birthday-Reminder
@@ -517,6 +538,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://birthday-reminds.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -524,6 +546,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Birthday-Reminder"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -540,6 +563,7 @@ function Portfolio() {
                         <a
                           href="https://weathertodayapi.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Weather-Today
@@ -551,6 +575,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://weathertodayapi.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -558,6 +583,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Weather-Today"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -574,6 +600,7 @@ function Portfolio() {
                         <a
                           href="https://navbar-sidebar-responsive.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Responsive Sidebar
@@ -585,6 +612,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://navbar-sidebar-responsive.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -592,6 +620,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Navbar-responsive-"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -608,6 +637,7 @@ function Portfolio() {
                         <a
                           href="https://navbar-responsive-react.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Responsive Navbar
@@ -619,6 +649,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://navbar-responsive-react.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -626,6 +657,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Responsive-Navbar"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -642,6 +674,7 @@ function Portfolio() {
                         <a
                           href="https://contact-form-send-email.netlify.app/"
                           target="_blank"
+                          rel="noreferrer"
                           className="stretched-link text-dark text-decoration-none cardTitle"
                         >
                           Contact Us form
@@ -653,6 +686,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://contact-form-send-email.netlify.app/"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Live Demo
                       </a>
@@ -660,6 +694,7 @@ function Portfolio() {
                         className="text-decoration-none"
                         href="https://github.com/Shamim-Al-Mamun/Contact-form-send-email"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i className="fab fa-github text-dark"></i> Source Code
                       </a>
@@ -682,6 +717,7 @@ function Portfolio() {
                     <a
                       href="https://calculatorvanilla-js.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                       className="stretched-link text-dark text-decoration-none cardTitle"
                     >
                       Calculator
@@ -693,6 +729,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://calculatorvanilla-js.netlify.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Live Demo
                   </a>
@@ -700,6 +737,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://github.com/Shamim-Al-Mamun/Calculator"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="fab fa-github text-dark"></i> Source Code
                   </a>
@@ -716,6 +754,7 @@ function Portfolio() {
                     <a
                       href="https://stopwatchvanilla-js.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                       className="stretched-link text-dark text-decoration-none cardTitle"
                     >
                       Stopwatch
@@ -727,6 +766,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://stopwatchvanilla-js.netlify.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Live Demo
                   </a>
@@ -734,6 +774,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://github.com/Shamim-Al-Mamun/Stopwatch/tree/master"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="fab fa-github text-dark"></i> Source Code
                   </a>
@@ -750,6 +791,7 @@ function Portfolio() {
                     <a
                       href="https://todolistvanilla-js.netlify.app/"
                       target="_blank"
+                      rel="noreferrer"
                       className="stretched-link text-dark text-decoration-none cardTitle"
                     >
                       TodoList
@@ -762,6 +804,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://todolistvanilla-js.netlify.app/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Live Demo
                   </a>
@@ -769,6 +812,7 @@ function Portfolio() {
                     className="text-decoration-none"
                     href="https://github.com/Shamim-Al-Mamun/TodoList"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <i className="fab fa-github text-dark"></i> Source Code
                   </a>
@@ -788,6 +832,7 @@ function Portfolio() {
                   <a
                     href="https://node-server-http.herokuapp.com/"
                     target="_blank"
+                    rel="noreferrer"
                     className="stretched-link text-dark text-decoration-none cardTitle"
                   >
                     Http Server
@@ -800,6 +845,7 @@ function Portfolio() {
                   className="text-decoration-none"
                   href="https://node-server-http.herokuapp.com/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
@@ -807,6 +853,7 @@ function Portfolio() {
                   className="text-decoration-none"
                   href="https://github.com/Shamim-Al-Mamun/Http-Server-Node"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-github text-dark"></i> Source Code
                 </a>
