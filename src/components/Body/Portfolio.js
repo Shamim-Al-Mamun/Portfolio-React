@@ -260,6 +260,7 @@ function Portfolio() {
                         href="https://country-app-react-redux-bootstrap.netlify.app/"
                         className="stretched-link text-dark text-decoration-none cardTitle"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         Country App
                       </a>
