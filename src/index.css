@@ -112,3 +112,8 @@ button:focus {
     padding: 0.3rem !important;
   }
 }
+@media screen and (max-width: 350px) {
+  .navButtons {
+    width: 23%;
+  }
+}
