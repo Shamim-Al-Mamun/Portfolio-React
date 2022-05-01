@@ -114,6 +114,6 @@ button:focus {
 }
 @media screen and (max-width: 350px) {
   .navButtons {
-    width: 23%;
+    width: 25%;
   }
 }
