@@ -14,8 +14,10 @@ import resumemaker from "./Images/resumemaker.png";
 import todo from "./Images/todo.png";
 import capp from "./Images/capp.png";
 import eplan from "./Images/eplan.png";
-import httpserver from "./Images/httpserver.png";
 import pgallery from "./Images/pgallery.png";
+import area from "./Images/area.png";
+import hobby from "./Images/hobby.png";
+import restapi from "./Images/restapi.png";
 
 function Portfolio() {
   const [showVanilla, setShowVanilla] = useState(true);
@@ -822,44 +824,110 @@ function Portfolio() {
             </>
           )}
           {showNode && (
-            <Col className="pb-4">
-              <Card className="cards">
-                <Card.Img
-                  className="cardImage"
-                  variant="top"
-                  src={httpserver}
-                />
-                <Card.Title className="w-100 py-2 text-center">
+            <>
+              <Col className="pb-4">
+                <Card className="cards">
+                  <Card.Img className="cardImage" variant="top" src={area} />
+                  <Card.Title className="w-100 py-2 text-center">
+                    <a
+                      href="https://area-calculator-node.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="stretched-link text-dark text-decoration-none cardTitle"
+                    >
+                      Area Calculator
+                    </a>
+                  </Card.Title>
+                </Card>
+
+                <div className="d-flex justify-content-around footers">
                   <a
-                    href="https://node-server-http.herokuapp.com/"
+                    className="text-decoration-none"
+                    href="https://area-calculator-node.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
-                    className="stretched-link text-dark text-decoration-none cardTitle"
                   >
-                    Http Server
+                    Live Demo
                   </a>
-                </Card.Title>
-              </Card>
+                  <a
+                    className="text-decoration-none"
+                    href="https://github.com/Shamim-Al-Mamun/Area-Calculator-Node"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github text-dark"></i> Source Code
+                  </a>
+                </div>
+              </Col>
+              <Col className="pb-4">
+                <Card className="cards">
+                  <Card.Img className="cardImage" variant="top" src={hobby} />
+                  <Card.Title className="w-100 py-2 text-center">
+                    <a
+                      href="https://hobbylister.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="stretched-link text-dark text-decoration-none cardTitle"
+                    >
+                      Hobby Lister
+                    </a>
+                  </Card.Title>
+                </Card>
 
-              <div className="d-flex justify-content-around footers">
-                <a
-                  className="text-decoration-none"
-                  href="https://node-server-http.herokuapp.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-                <a
-                  className="text-decoration-none"
-                  href="https://github.com/Shamim-Al-Mamun/Http-Server-Node"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fab fa-github text-dark"></i> Source Code
-                </a>
-              </div>
-            </Col>
+                <div className="d-flex justify-content-around footers">
+                  <a
+                    className="text-decoration-none"
+                    href="https://hobbylister.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    className="text-decoration-none"
+                    href="https://github.com/Shamim-Al-Mamun/Hobby-Lister-Node-EJS"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github text-dark"></i> Source Code
+                  </a>
+                </div>
+              </Col>
+              <Col className="pb-4">
+                <Card className="cards">
+                  <Card.Img className="cardImage" variant="top" src={restapi} />
+                  <Card.Title className="w-100 py-2 text-center">
+                    <a
+                      href="https://rest-api-crud-node.herokuapp.com/users"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="stretched-link text-dark text-decoration-none cardTitle"
+                    >
+                      REST API
+                    </a>
+                  </Card.Title>
+                </Card>
+
+                <div className="d-flex justify-content-around footers">
+                  <a
+                    className="text-decoration-none"
+                    href="https://rest-api-crud-node.herokuapp.com/users"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    className="text-decoration-none"
+                    href="https://github.com/Shamim-Al-Mamun/REST-API-CRUD-operations-Node"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github text-dark"></i> Source Code
+                  </a>
+                </div>
+              </Col>
+            </>
           )}
         </Row>
       </Container>
