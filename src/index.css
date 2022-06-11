@@ -22,14 +22,14 @@ button:focus {
   margin-top: 1rem;
 }
 .portfolioBorder {
-  border-bottom: 5px solid rgb(255, 127, 80);
+  border-bottom: 3px solid rgb(255, 127, 80);
   width: 75%;
   margin: auto;
   margin-top: 1rem;
   border-radius: 5px;
 }
 .cardImage {
-  height: 250px;
+  height: 200px;
 }
 .cards {
   /* background-color: rgb(255, 0, 0, 0.3) !important; */
@@ -54,12 +54,13 @@ button:focus {
 .footers:hover {
   opacity: 1;
 }
+
 .navButtons {
   background-color: white !important;
   color: black !important;
   border-color: rgb(128, 128, 128, 0.2) !important;
-  width: 15%;
-  font-size: 1rem !important;
+  /* font-size: 1rem !important; */
+  width: 90px;
 }
 .navButtons:focus {
   background-color: rgb(255, 127, 80, 0.9) !important;
@@ -91,8 +92,11 @@ button:focus {
     height: 150px;
   }
   .navButtons {
-    width: 20%;
-    font-size: 0.6rem !important;
+    width: 50px;
+    height: 25px;
+    font-size: 10px !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
   .footers {
     font-size: 0.5rem !important;
@@ -110,11 +114,5 @@ button:focus {
     font-size: 0.5rem !important;
     margin: 0 !important;
     padding: 0.3rem !important;
-  }
-}
-@media screen and (max-width: 350px) {
-  .navButtons {
-    width: 29%;
-    font-size: 0.5rem !important;
   }
 }

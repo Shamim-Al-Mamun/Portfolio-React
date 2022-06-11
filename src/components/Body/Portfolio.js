@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Card, Col, Row, Button } from "react-bootstrap";
+
 import calculator from "./Images/calculator.png";
 import stopwatch from "./Images/stopwatch.png";
 import todolist from "./Images/todolist.png";
@@ -18,14 +19,17 @@ import pgallery from "./Images/pgallery.png";
 import area from "./Images/area.png";
 import hobby from "./Images/hobby.png";
 import restapi from "./Images/restapi.png";
+import tmern from "./Images/tmern.png";
 
 function Portfolio() {
+  const [showMERN, setShowMERN] = useState(true);
   const [showVanilla, setShowVanilla] = useState(true);
   const [showReact, setShowReact] = useState(true);
   const [showNode, setShowNode] = useState(true);
   const [reactCat, setReactCat] = useState(false);
 
   const [clickAll, setClickAll] = useState(true);
+  const [clickMERN, setClickMERN] = useState(false);
   const [clickVanilla, setClickVanilla] = useState(false);
   const [clickReact, setClickReact] = useState(false);
   const [clickNode, setClickNode] = useState(false);
@@ -44,6 +48,7 @@ function Portfolio() {
   const [clickReactStyled, setClickReactStyled] = useState(false);
 
   const handleAll = () => {
+    setShowMERN(true);
     setShowVanilla(true);
     setShowReact(true);
     setShowNode(true);
@@ -54,39 +59,59 @@ function Portfolio() {
     setShowrecatAll(true);
     //click
     setClickAll(true);
+    setClickMERN(false);
+    setClickVanilla(false);
+    setClickReact(false);
+    setClickNode(false);
+    setReactCat(false);
+  };
+  const handleMERN = () => {
+    setShowMERN(true);
+    setShowVanilla(false);
+    setShowReact(false);
+    setShowNode(false);
+    //click
+    setClickAll(false);
+    setClickMERN(true);
     setClickVanilla(false);
     setClickReact(false);
     setClickNode(false);
     setReactCat(false);
   };
   const handleVanila = () => {
+    setShowMERN(false);
     setShowVanilla(true);
     setShowReact(false);
     setShowNode(false);
     //click
     setClickAll(false);
+    setClickMERN(false);
     setClickVanilla(true);
     setClickReact(false);
     setClickNode(false);
     setReactCat(false);
   };
   const handleReact = () => {
+    setShowMERN(false);
     setShowVanilla(false);
     setShowReact(true);
     setShowNode(false);
     //click
     setClickAll(false);
+    setClickMERN(false);
     setClickVanilla(false);
     setClickReact(true);
     setClickNode(false);
     setReactCat(true);
   };
   const handleNode = () => {
+    setShowMERN(false);
     setShowVanilla(false);
     setShowReact(false);
     setShowNode(true);
     //click
     setClickAll(false);
+    setClickMERN(false);
     setClickVanilla(false);
     setClickReact(false);
     setClickNode(true);
@@ -166,12 +191,18 @@ function Portfolio() {
       <Container className="mb-2">
         <h2 className="portfolioHeader">PORTFOLIO</h2>
         <div className="portfolioBorder mb-4"></div>
-        <div className="d-flex justify-content-center mb-3">
+        <div className="d-flex justify-content-center mb-3 nav">
           <Button
             className={clickAll ? "navButtons active" : " navButtons"}
             onClick={handleAll}
           >
             All
+          </Button>
+          <Button
+            className={clickMERN ? "navButtons active" : " navButtons"}
+            onClick={handleMERN}
+          >
+            MERN
           </Button>
           <Button
             className={clickVanilla ? "navButtons active" : " navButtons"}
@@ -250,7 +281,45 @@ function Portfolio() {
             <br />
           </>
         )}
-        <Row xs={2} sm={2} md={3} lg={4}>
+        <Row xs={2} sm={2} md={4} lg={5}>
+          {showMERN && (
+            <>
+              <Col className="pb-4">
+                <Card className="cards">
+                  <Card.Img className="cardImage" variant="top" src={tmern} />
+                  <Card.Title className="w-100 py-2 text-center">
+                    <a
+                      href="https://todo-app-mern-stack-22.herokuapp.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="stretched-link text-dark text-decoration-none cardTitle"
+                    >
+                      To-do App
+                    </a>
+                  </Card.Title>
+                </Card>
+
+                <div className="d-flex justify-content-around footers">
+                  <a
+                    className="text-decoration-none"
+                    href="https://todo-app-mern-stack-22.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    className="text-decoration-none"
+                    href="https://github.com/Shamim-Al-Mamun/Todo-App-MERN"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-github text-dark"></i> Source Code
+                  </a>
+                </div>
+              </Col>
+            </>
+          )}
           {showReact && (
             <>
               {showReactRedux && (
